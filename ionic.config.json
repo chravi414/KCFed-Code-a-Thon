@@ -1,0 +1,7 @@
+{
+  "name": "recovider",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
