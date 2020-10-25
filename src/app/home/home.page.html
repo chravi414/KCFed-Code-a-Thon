@@ -1,0 +1,51 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title class="title">RECOVidER</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="container">
+        <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+            <ion-refresher-content></ion-refresher-content>
+        </ion-refresher>
+        <ion-grid>
+            <ion-row>
+                <ion-col>
+                    <div class="item item-1">
+                        <h2>Gain Skills</h2>
+                    </div>
+                </ion-col>
+                <ion-col>
+                    <div class="item item-2">
+                        <h2>Find Jobs</h2>
+                    </div>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <div class="item item-3">
+                        <h2>Manage Children</h2>
+                    </div>
+                </ion-col>
+                <ion-col>
+                    <div class="item item-4">
+                        <h2>News & Updates</h2>
+                    </div>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <div class="item item-5">
+                        <h2>Seek Help</h2>
+                    </div>
+                </ion-col>
+                <ion-col>
+                    <div class="item item-6">
+                        <h2>Others</h2>
+                    </div>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+</ion-content>

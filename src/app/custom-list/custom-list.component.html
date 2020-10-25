@@ -1,0 +1,14 @@
+<ion-content [fullscreen]="true">
+    <div id="container" class="health-list">
+        <ion-list lines="none">
+            <ion-item *ngFor="let option of dataList" [ngClass]="{'green': option.rank >= 75, 'red': option.rank >=50 && option.rank < 75, 'yellow':option.rank >=25 && option.rank < 50}">
+                <ion-icon name="{{option.logo}}"></ion-icon>
+                <ion-label>
+                    <h3>{{option.label}}</h3>
+                    <p>{{option.subcat}}</p>
+                </ion-label>
+            </ion-item>
+        </ion-list>
+    </div>
+
+</ion-content>
