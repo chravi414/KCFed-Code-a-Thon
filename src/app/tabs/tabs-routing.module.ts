@@ -25,6 +25,10 @@ const routes: Routes = [
         loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
       },
       {
+        path: 'discussion',
+        loadChildren: ()  => import('../discussion/discussion.module').then(m=> m.DiscussionPageModule)
+      },
+      {
         path: '',
         redirectTo: '/home/tabs/health',
         pathMatch: 'full'

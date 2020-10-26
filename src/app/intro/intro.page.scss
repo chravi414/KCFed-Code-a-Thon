@@ -6,7 +6,7 @@ ion-slides {
 .slide {
     display: flex;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
     flex-direction: column;
     padding: 20px;
     // color: #fff;
@@ -30,4 +30,19 @@ ion-slides {
     cursor: pointer;
     color: #f72664;
     text-transform: uppercase;
+}
+
+.slide div {
+    text-align: left;
+}
+
+.slide div h4 {
+    color: #f90;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+.slide h1 {
+    margin-top: 1px;
 }

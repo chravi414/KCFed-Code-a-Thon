@@ -1,0 +1,11 @@
+<h2 (click)="toggleAccordion()">
+    {{ tipName }}
+    <span *ngIf="isOpen">&#9650;</span>
+    <span *ngIf="!isOpen">&#9660;</span>
+</h2>
+<div [ngClass]="this.isOpen ? 'active' : 'inactive'">
+    {{tipDesc}}
+    <!-- <ul class="tips-list" *ngFor="let desc of tipDesc">
+        <li>{{desc}}</li>
+    </ul> -->
+</div>
