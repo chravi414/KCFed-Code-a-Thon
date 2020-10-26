@@ -1,0 +1,106 @@
+{
+    "health": [{
+        "id": 1,
+        "name": "PTSD COACH",
+        "subtitle": "By US Dept. of Veteran affairs",
+        "ref": "https://www.ptsd.va.gov/apps/ptsdcoachonline/handouts.htm",
+        "logo": "https://www.ptsd.va.gov/apps/ptsdcoachonline/img/ncptsd_logo.png",
+        "rating": 4
+    }, {
+        "id": 2,
+        "name": "Headspace App",
+        "subtitle": "By Headspace INC.",
+        "ref": "https://www.headspace.com/headspace-meditation-app",
+        "logo": "https://www.headspace.com/static/images/logo.svg",
+        "rating": 4.5
+    }],
+    "opportunities": [{
+            "id": 1,
+            "name": "Udemy",
+            "logo": "https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg",
+            "subtitle": "Learn from world's experts",
+            "ref": "https://www.udemy.com/",
+            "rating": 7.5
+        }, {
+            "id": 1,
+            "name": "Plural Sight",
+            "logo": "https://awsmp-logos.s3.amazonaws.com/84e08b3d-ff70-4afd-8d39-2aab15d1e5cf/22ea0da576072054990d4f8146010760.png",
+            "ref": "https://www.pluralsight.com/",
+            "subtitle": "Technology workforce development company",
+            "rating": 4.0
+        },
+        {
+            "id": 1,
+            "name": "CourseEra",
+            "logo": "https://avatars1.githubusercontent.com/u/1744549?s=280&v=4",
+            "subtitle": "Your course to Success",
+            "rating": 6.7,
+            "ref": "https://www.coursera.org/"
+        }, {
+            "id ": 1,
+            "name": "Udacity",
+            "logo": "https://patrick-hirschi.ch/wp-content/uploads/2019/06/udacity_is_looking_good.jpg",
+            "ref": "https://www.udacity.com/",
+            "subtitle": "Mission To Democratize Education",
+            "rating": 5.5
+        },
+        {
+            "id": 1,
+            "name": "Edureka",
+            "logo": "https://www.blocksocial.com/wp-content/uploads/2019/06/edureka-blockchain.jpg",
+            "subtitle": "Largest online learning ecosystem",
+            "rating": 4.5,
+            "ref": "https://www.edureka.co/"
+        }
+    ],
+    "fakenews": [{
+            "id": 1,
+            "image": "https://raw.githubusercontent.com/chravi414/KCFed-Code-a-Thon/main/src/assets/images/image5.png",
+            "description": "Fake, because there is no credible source from a health advisory. Involves risk and looks like it is intended more towards creating pun."
+        }, {
+            "id": 2,
+            "image": "https://raw.githubusercontent.com/chravi414/KCFed-Code-a-Thon/main/src/assets/images/image6.png",
+            "description": "Fake. Indication - the sender does not cite sources. The news is not present in other official medium. Created only to grab attention."
+        },
+        {
+            "id": 3,
+            "image": "https://raw.githubusercontent.com/chravi414/KCFed-Code-a-Thon/main/src/assets/images/image7.png",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam corrupti, provident laborum illo dignissimos sit! Voluptas nesciunt ab est voluptates."
+        },
+        {
+            "id": 4,
+            "image": "https://raw.githubusercontent.com/chravi414/KCFed-Code-a-Thon/main/src/assets/images/image8.png",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam corrupti, provident laborum illo dignissimos sit! Voluptas nesciunt ab est voluptates."
+        },
+        {
+            "id": 5,
+            "image": "https://raw.githubusercontent.com/chravi414/KCFed-Code-a-Thon/main/src/assets/images/image9.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam corrupti, provident laborum illo dignissimos sit! Voluptas nesciunt ab est voluptates."
+        },
+        {
+            "id": 6,
+            "image": "https://raw.githubusercontent.com/chravi414/KCFed-Code-a-Thon/main/src/assets/images/image10.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam corrupti, provident laborum illo dignissimos sit! Voluptas nesciunt ab est voluptates."
+        },
+        {
+            "id": 7,
+            "image": "https://raw.githubusercontent.com/chravi414/KCFed-Code-a-Thon/main/src/assets/images/image11.jpeg",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam corrupti, provident laborum illo dignissimos sit! Voluptas nesciunt ab est voluptates."
+        },
+        {
+            "id": 8,
+            "image": "https://raw.githubusercontent.com/chravi414/KCFed-Code-a-Thon/main/src/assets/images/image14.png",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam corrupti, provident laborum illo dignissimos sit! Voluptas nesciunt ab est voluptates."
+        },
+        {
+            "id": 9,
+            "image": "https://raw.githubusercontent.com/chravi414/KCFed-Code-a-Thon/main/src/assets/images/image15.png",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam corrupti, provident laborum illo dignissimos sit! Voluptas nesciunt ab est voluptates."
+        },
+        {
+            "id": 10,
+            "image": "https://raw.githubusercontent.com/chravi414/KCFed-Code-a-Thon/main/src/assets/images/image16.png",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam corrupti, provident laborum illo dignissimos sit! Voluptas nesciunt ab est voluptates."
+        }
+    ]
+}

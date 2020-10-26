@@ -1,3 +1,29 @@
 <ion-content [fullscreen]="true">
-    <app-custom-list [dataList]="healthOptions"></app-custom-list>
+    <div id="container">
+        <div class="cdc-card">
+            <img src="https://www.eu-cord.org/2015/wp-content/uploads/2020/04/covid-19.jpg" />
+            <h1 class="text-center">CDC Guidelines</h1>
+        </div>
+        <div class="tips">
+            <h3>Protect Yourself & Others</h3>
+            <app-accordian *ngFor="let technology of technologies" tipName="{{ technology.name }}" tipDesc="{{ technology.description }}" (change)="captureName($event)"></app-accordian>
+        </div>
+        <div class="health-list">
+            <h3>Resources</h3>
+            <ion-list lines="none">
+                <ion-item *ngFor="let option of healthOptions" [ngClass]="{'green': option.rating >= 4, 'red': option.rating >=3 && option.rating < 4, 'yellow':option.rating >=2 && option.rating < 3}">
+                    <img [src]="option.logo" class="logo" />
+
+                    <ion-label>
+                        <a [href]="option.ref" class="ext-link" target="_blank">
+                            <h3>{{option.name}}</h3>
+                        </a>
+                        <p>{{option.subtitle}}</p>
+                    </ion-label>
+                </ion-item>
+            </ion-list>
+        </div>
+    </div>
+
+
 </ion-content>
